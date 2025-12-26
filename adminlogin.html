@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Administrator Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+
+  <div class="admin-wrapper">
+
+    <header class="admin-header">
+      <h1>Administrator Login</h1>
+    </header>
+
+    <main class="admin-card">
+      <form>
+
+        <label>Admin Email</label>
+        <input type="email" placeholder="Enter admin email" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password" required>
+
+        <label>Security Code</label>
+        <div class="admin-captcha">
+          <span class="captcha-text">ADM-729X</span>
+          <input type="text" placeholder="Enter code" required>
+        </div>
+
+        <button type="submit">Login</button>
+      </form>
+
+      <p class="admin-warning">Authorized administrators only</p>
+    </main>
+
+  </div>
+
+</body>
+</html>
